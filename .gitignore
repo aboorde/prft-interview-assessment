@@ -1,0 +1,7 @@
+app/typeDir
+/node_modules
+/bower_components
+/.DS_Store
+/target
+/.svn
+/.idea/

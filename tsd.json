@@ -1,0 +1,36 @@
+{
+  "version": "v4",
+  "repo": "borisyankov/DefinitelyTyped",
+  "ref": "master",
+  "path": "app/typeDir",
+  "bundle": "app/typeDir/tsd.d.ts",
+  "installed": {
+    "angularjs/angular.d.ts": {
+      "commit": "c50b111ded0a3a18b87b5abffea3150d6aca94da"
+    },
+    "jquery/jquery.d.ts": {
+      "commit": "c50b111ded0a3a18b87b5abffea3150d6aca94da"
+    },
+    "angularjs/angular-route.d.ts": {
+      "commit": "c50b111ded0a3a18b87b5abffea3150d6aca94da"
+    },
+    "angularjs/angular-resource.d.ts": {
+      "commit": "c50b111ded0a3a18b87b5abffea3150d6aca94da"
+    },
+    "angularjs/angular-cookies.d.ts": {
+      "commit": "c50b111ded0a3a18b87b5abffea3150d6aca94da"
+    },
+    "angularjs/angular-sanitize.d.ts": {
+      "commit": "c50b111ded0a3a18b87b5abffea3150d6aca94da"
+    },
+    "angularjs/angular-animate.d.ts": {
+      "commit": "c50b111ded0a3a18b87b5abffea3150d6aca94da"
+    },
+    "angularjs/angular-mocks.d.ts": {
+      "commit": "c50b111ded0a3a18b87b5abffea3150d6aca94da"
+    },
+    "angular-translate/angular-translate.d.ts": {
+      "commit": "c50b111ded0a3a18b87b5abffea3150d6aca94da"
+    }
+  }
+}
