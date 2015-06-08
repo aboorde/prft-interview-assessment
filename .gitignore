@@ -6,3 +6,5 @@ app/typeDir
 /target
 /.svn
 /.idea/
+
+builds
