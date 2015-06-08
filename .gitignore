@@ -1,6 +1,7 @@
 app/typeDir
 /node_modules
 /bower_components
+/builds
 /.DS_Store
 /target
 /.svn
