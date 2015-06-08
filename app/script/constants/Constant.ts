@@ -5,5 +5,4 @@ module prft.interview {
     export var SCOPE = '$scope';
     export var HTTP = '$http';
     export var DEFER = '$q';
-
 }

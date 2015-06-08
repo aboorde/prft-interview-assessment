@@ -1,7 +1,7 @@
 /// <reference path="../util/_app.ts" />
 
 module prft.interview {
-
+    'use strict';
     export class LoginDirective implements ng.IDirective {
         restrict = 'E';
         templateUrl = "./view/loginForm.html";

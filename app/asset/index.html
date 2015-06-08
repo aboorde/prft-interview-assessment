@@ -1,35 +1,39 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <title>Skills Assessment Test</title>
-  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Oswald" />
-  <link rel="stylesheet" href="./css/all-css.min.css">
-  <script src="./js/all-bower-js.js"></script>
-  <script src="./js/all-app-js.js"></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Skills Assessment Test</title>
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Oswald"/>
+    <link rel="stylesheet" href="./css/all-css.min.css">
+    <script src="./js/all-bower-js.js"></script>
+    <script src="./js/all-app-js.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.9.3/lodash.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/angular-google-maps/2.1.2/angular-google-maps.js'></script>
+    <script src='//maps.googleapis.com/maps/api/js?sensor=false'></script>
+
 </head>
 <body>
-  <div id="main-content" class="container-fluid" ng-app="prft.interview">
+<div id="main-content" class="container-fluid" ng-app="prft.interview" ng-controller="interviewController">
     <div class="navbar navbar-fixed-top">
-      <header>
-        <div class="brand pull-left">
-          <img src="./images/logo-xd-redwhite.png" alt="Skills Assessment">
-        </div>
-        <div class="pull-left app-title">
-          <h1>Skills Assessment</h1>
-        </div>
-      </header>
+        <header>
+            <div class="brand pull-left">
+                <img src="./images/logo-xd-redwhite.png" alt="Skills Assessment">
+            </div>
+            <div class="pull-left app-title">
+                <h1>Skills Assessment</h1>
+            </div>
+        </header>
     </div>
     <div class="main">
-      <div id="question-page">
-        <login-directive></login-directive>
-      </div>
-      <div id="thank-you" class="hidden">
-        <div class="alert alert-success" role="alert">
-          Thank you! Your answers have been successfully submitted. We will review and get back to you.
+        <div id="question-page">
+            <login-directive></login-directive>
         </div>
-      </div>
+        <div id="thank-you" class="hidden">
+            <div class="alert alert-success" role="alert">
+                Thank you! Your answers have been successfully submitted. We will review and get back to you.
+            </div>
+        </div>
     </div>
-  </div>
+</div>
 </body>
 </html>
