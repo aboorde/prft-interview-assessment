@@ -1,5 +1,5 @@
 {
-  "name": "memberlandingpage",
+  "name": "prtf-interview",
   "version": "1.0.0",
   "dependencies": {
     "multimatch": "^2.0.0"
@@ -23,5 +23,8 @@
     "lazypipe": "^0.2.3",
     "node-neat": "^1.7.2",
     "run-sequence": "^1.1.0"
+  },
+  "scripts": {
+    "postinstall": "bower install"
   }
 }
