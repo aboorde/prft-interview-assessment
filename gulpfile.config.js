@@ -24,7 +24,7 @@ var Config = (function () {
         this.all_sass_css = this.build_dir + "css/all-css.min.css" ;
 
         this.lib_typescript = this.source_dir + './typeDir/**/*.ts';
-        this.typescript_compile_target_version = 'ES5';
+        this.typescript_compile_target_version = 'ES6';
         this.server_port = 3000;
         this.typedef_file = 'tsd.json'
         this.dist_file = 'interview.war'
