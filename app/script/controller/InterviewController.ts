@@ -26,9 +26,11 @@ module prft.interview {
             this.scope.countries = [china, india, usa];
         }
 
-        addName(newName:String):void {
-            this.scope.names.push(newName);
-            newName = "";
+        addName(newNames:String[]):void {
+            for(var idx in newNames){
+                this.scope.names.push(newNames[idx]);
+            }
+            newNames = null;
         }
 
         removeName(idx:number):void {

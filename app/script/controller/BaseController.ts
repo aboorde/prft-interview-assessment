@@ -1,6 +1,6 @@
 module prft.interview {
     export interface IInterviewController {
-        addName(newName : String) : void;
+        addName(...newName:string[]):void;
         removeName(idx : number) : void;
     }
 }
