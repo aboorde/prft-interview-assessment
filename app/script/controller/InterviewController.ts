@@ -3,7 +3,6 @@
  */
 /// <reference path="../util/_app.ts" />
 /// <reference path='../util/Logger.ts' />
-/// <reference path='../constants/Constant.ts' />
 /// <reference path='../controller/BaseController.ts' />
 /// <reference path='../model/Country.ts' />
 module prft.interview {
@@ -13,9 +12,9 @@ module prft.interview {
         names:String[];
         countries : Country[];
     }
-    export class InterviewController implements InterviewControllerItf {
+    export class InterviewController implements IInterviewController {
         scope:InterviewControllerScope;
-        static $inject = [SCOPE];
+        static $inject = ['$scope'];
 
         constructor($scope:InterviewControllerScope) {
             this.scope = $scope;

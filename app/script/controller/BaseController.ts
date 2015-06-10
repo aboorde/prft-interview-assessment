@@ -1,5 +1,5 @@
 module prft.interview {
-    export interface InterviewControllerItf {
+    export interface IInterviewController {
         addName(newName : String) : void;
         removeName(idx : number) : void;
     }
