@@ -20,10 +20,10 @@ module prft.interview {
         constructor($scope:InterviewControllerScope) {
             this.scope = $scope;
             this.scope.names = ["Joe", "Jim", "Jill", "Jye"];
-
             var china:Country = new Country('China', 1359821000);
             var india:Country = new Country('India', 1205625000);
             var usa:Country = new Country('USA', 312241000);
+            usa.setName('United States of America');
             this.scope.countries = [china, india, usa];
         }
 

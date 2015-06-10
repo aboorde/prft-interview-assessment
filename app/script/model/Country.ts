@@ -4,7 +4,6 @@
 module prft.interview {
     export class Country {
         private name:string
-
         private population:number;
 
         constructor(name:string, population:number) {
@@ -12,19 +11,19 @@ module prft.interview {
             this.population = population;
         }
 
-        public get name():string {
+        public getName():string {
             return this.name;
         }
 
-        public set name(value:string) {
+        public setName(value:string) {
             this.name = value;
         }
 
-        public get population():number {
+        public getPopulation():number {
             return this.population;
         }
 
-        public set population(value:number) {
+        public setPopulation(value:number) {
             this.population = value;
         }
     }
