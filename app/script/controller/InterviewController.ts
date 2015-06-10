@@ -11,6 +11,7 @@ module prft.interview {
         lastName:String;
         names:String[];
         countries : Country[];
+        interviewService:IInterviewService;
     }
     export class InterviewController implements IInterviewController {
         scope:InterviewControllerScope;
@@ -19,14 +20,18 @@ module prft.interview {
         constructor($scope:InterviewControllerScope) {
             this.scope = $scope;
             this.scope.names = ["Joe", "Jim", "Jill", "Jye"];
+
             var china:Country = new Country('China', 1359821000);
             var india:Country = new Country('India', 1205625000);
             var usa:Country = new Country('USA', 312241000);
             usa.setName('United States of America');
             this.scope.countries = [china, india, usa];
+
+
+            this.scope.firstName = "Boy";
         }
 
-        addName(newNames:String[]):void {
+        addNames(newNames:String[]):void {
             for(var idx in newNames){
                 this.scope.names.push(newNames[idx]);
             }
@@ -36,6 +41,16 @@ module prft.interview {
         removeName(idx:number):void {
             //var idx1:number = this.scope.names.indexOf("sdfsd");
             this.scope.names.splice(idx, 1);
+        }
+
+        retrieveCountries():Country[]{
+            var china:Country = new Country('China', 1359821000);
+            var india:Country = new Country('India', 1205625000);
+            var usa:Country = new Country('USA', 312241000);
+            //usa.setName('United States of America');
+            //this.scope.countries = [china, india, usa];
+
+            return [china, india, usa];
         }
     }
 
