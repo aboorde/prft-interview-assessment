@@ -7,13 +7,9 @@
     <link rel="stylesheet" href="./css/all-css.min.css">
     <script src="./js/all-bower-js.js"></script>
     <script src="./js/all-app-js.js"></script>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.9.3/lodash.js'></script>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/angular-google-maps/2.1.2/angular-google-maps.js'></script>
-    <script src='//maps.googleapis.com/maps/api/js?sensor=false'></script>
-
 </head>
 <body>
-<div id="main-content" class="container-fluid" ng-app="prft.interview" ng-controller="interviewController as itvCtrl">
+<div id="main-content" class="container-fluid" ng-app="prft.interview">
     <div class="navbar navbar-fixed-top">
         <header>
             <div class="brand pull-left">
@@ -25,33 +21,8 @@
         </header>
     </div>
     <div class="main">
-        FirstName: <input ng-model="firstName" type="text"/><br>
-        LastName: <input ng-model="lastName" type="text"/><br>
-        Hello {{firstName}} {{lastName}}
-        <hr/>
-        <ul>
-            <li ng-repeat="name in names track by $index"><a href="" ng-click="itvCtrl.removeName($index)">{{name}}</a>
-            </li>
-        </ul>
-        <form ng-submit="itvCtrl.addNames(newNames)">
-            <input type="text" ng-model="newNames" ng-list required>
-            <input type="submit" value="Add Names">
-        </form>
-        <hr/>
-        <ul>
-            <li ng-repeat="country in itvCtrl.retrieveCountries() track by $index">{{country.name}}'s Population {{country.population}}
-            </li>
-        </ul>
-
-
-        <hr/>
         <div id="question-page">
-            <login-directive></login-directive>
-        </div>
-        <div id="thank-you" class="hidden">
-            <div class="alert alert-success" role="alert">
-                Thank you! Your answers have been successfully submitted. We will review and get back to you.
-            </div>
+            <div ng-view></div>
         </div>
     </div>
 </div>

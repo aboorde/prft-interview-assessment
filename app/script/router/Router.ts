@@ -1,13 +1,26 @@
 /// <reference path="../util/Module.ts" />
-/// <reference path="../directives/LoginDirective.ts" />
-/// <reference path="../controller/InterviewController.ts" />
+/// <reference path="../controller/IntervieweeInfoCtrl.ts" />
 
-import loginDirective = prft.interview.LoginDirective;
-import interviewController = prft.interview.InterviewController;
+import IntervieweeInfoCtrl = prft.interview.IntervieweeInfoCtrl;
 
 module prft.interview {
-    var itvApp = new Module('prft.interview', []);
-    itvApp.addController('interviewController', interviewController);
-    itvApp.addDirective('loginDirective', loginDirective.factory());
-    itvApp.addCORS();
+    var dependencies:string[] = ['ngRoute'];
+    var itvApp = new Module('prft.interview',dependencies);
+    itvApp.addController('IntervieweeInfoCtrl', IntervieweeInfoCtrl);
+
+    itvApp.module.config(function ($routeProvider) {
+        $routeProvider.
+            when('/login', {
+                templateUrl: './view/loginForm.html',
+                controller:'IntervieweeInfoCtrl'
+            }).
+            when('/assessment', {
+                templateUrl: 'assessment.html',
+            }).
+            otherwise({
+                redirectTo: '/login'
+            });
+    });
+
+
 }

@@ -1,4 +1,5 @@
 /// <reference path="../util/_app.ts" />
+///<reference path="..\..\typeDir\angularjs\angular.d.ts"/>
 
 module prft.interview {
 
@@ -10,15 +11,15 @@ module prft.interview {
             this.module = angular.module(name, modules);
         }
 
-        addController(name:string, controller:Function) {
+        public addController(name:string, controller:Function) {
             this.module.controller(name, controller);
         }
 
-        addService(name:string, service:Function) {
+        public addService(name:string, service:Function) {
             this.module.service(name, service);
         }
 
-        addDirective(name:string, factory:ng.IDirectiveFactory) {
+        public addDirective(name:string, factory:ng.IDirectiveFactory) {
             this.module.directive(name, factory);
         }
 
@@ -31,7 +32,7 @@ module prft.interview {
             this.module.filter(name, filterFunction);
         }
 
-        public addCORS() {
+        public addCORS():void {
             this.module.config(['$httpProvider', function ($httpProvider) {
                 $httpProvider.defaults.useXDomain = true;
                 delete $httpProvider.defaults.headers.common['X-Requested-With'];

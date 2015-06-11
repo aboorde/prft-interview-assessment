@@ -1,24 +1,35 @@
-<form id="questionnaire_form">
-  <div id="my-info">
+<form id="itve_info_form" name="itve_info_form" ng-controller="IntervieweeInfoCtrl as itveInfoCtrl" novalidate>
     <div class="row">
-      <div class="col-xs-offset-2 col-xs-8 col-sm-offset-3 col-sm-6">
-        <h2>Skills Assessment Test</h2>
-        <p>This is internal training project</p>
-      </div>
+        <div class="col-xs-offset-2 col-xs-8 col-sm-offset-3 col-sm-6">
+            <h2>Skills Assessment Test</h2>
+
+            <p>This is internal training project</p>
+        </div>
     </div>
     <div class="row">
-      <fieldset class="col-xs-offset-2 col-xs-8 col-sm-offset-3 col-sm-6">
-        <legend>Please Enter Your Information</legend>
-        <div class="form-group">
-          <input type="text" placeholder="Your Name" id="name" name="name" class="form-control error" data-rule-required="true" data-rule-alpha="true" data-msg-required="Please enter a valid name">
-        </div>
-        <div class="form-group">
-          <input type="email" placeholder="Your Email Address" id="email" name="email" class="form-control" data-rule-required="true" data-msg-required="Please enter a valid email address" data-rule-email="true">
-        </div>
-        <div class="form-group">
-          <button id="begin-my-test" class="submit btn btn-lg btn-default">Begin</button>
-        </div>
-      </fieldset>
+        <fieldset class="col-xs-offset-2 col-xs-8 col-sm-offset-3 col-sm-6">
+            <legend>Please Enter Your Information</legend>
+            <div class="form-group">
+                <input type="text" placeholder="First Name" class="form-control" required ng-model="itveInfo.contact.firstName">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Last Name" class="form-control" required ng-model="itveInfo.contact.lastName">
+            </div>
+            <div class="form-group">
+                <input type="email" placeholder="Your Email Address" class="form-control" required ng-model="itveInfo.contact.email">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Phone" class="form-control" ng-model="itveInfo.contact.phone">
+            </div>
+            <div class="form-group">
+                <button id="begin-my-test" class="submit btn btn-lg btn-default" ng-click="itveInfoCtrl.beginTest()" ng-disabled="!itve_info_form.$valid">Begin</button>
+            </div>
+        </fieldset>
     </div>
-  </div>
 </form>
+
+<script>
+    alert(sorted);
+    document.body.innerText = JSON.stringify(sorted, null, 4);
+
+</script>
