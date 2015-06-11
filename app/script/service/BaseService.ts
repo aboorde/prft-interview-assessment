@@ -7,7 +7,7 @@
 
 module prft.interview {
     export interface IInterviewService {
-        retrieveCountries() : Country[]
+        findCountries() : Country[]
     }
 
 }
