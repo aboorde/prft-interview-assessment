@@ -3,9 +3,11 @@
  */
 module prft.interview {
     export class IntervieweeInformation {
-        private contact:Contact;
-        private businessUnit:string;
-        private yearOfExp:YearOfExp;
+        constructor(public contact:Contact, public businessUnit:string) {
+            this.contact = contact;
+            this.businessUnit = businessUnit;
+            //this.yearOfExp = yearOfExp;
+        }
 
     }
     export enum YearOfExp{

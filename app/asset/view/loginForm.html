@@ -22,14 +22,18 @@
                 <input type="text" placeholder="Phone" class="form-control" ng-model="itveInfo.contact.phone">
             </div>
             <div class="form-group">
-                <button id="begin-my-test" class="submit btn btn-lg btn-default" ng-click="itveInfoCtrl.beginTest()" ng-disabled="!itve_info_form.$valid">Begin</button>
+                <input type="text" placeholder="Business Unit" class="form-control" ng-model="itveInfo.businessUnit">
             </div>
+<!--
+            <div class="form-group">
+                <input type="text" placeholder="Years of Exp" class="form-control" ng-model="yearOfExp">
+            </div>
+
+-->
+            <div class="form-group">
+                <button id="begin-my-test" class="submit btn btn-lg btn-default" ng-click="itveInfoCtrl.startAssessment()" ng-disabled="!itve_info_form.$valid">Begin</button>
+            </div>
+
         </fieldset>
     </div>
 </form>
-
-<script>
-    alert(sorted);
-    document.body.innerText = JSON.stringify(sorted, null, 4);
-
-</script>

@@ -6,23 +6,28 @@
 /// <reference path='../model/IntervieweeInformation.ts' />
 
 module prft.interview {
+    'use strict'
+
     export interface IntervieweeInfoCtrlScope extends ng.IScope {
-        intervieweeInformation:IntervieweeInformation;
         itveInfo:IntervieweeInformation;
     }
-    export class IntervieweeInfoCtrl implements IIntervieweeInfoCtrl {
-        scope:IntervieweeInfoCtrlScope;
-        yearOfExpOptions:YearOfExp[];
 
-        constructor($scope:IntervieweeInfoCtrlScope) {
-            this.scope = $scope;
-            YearOfExp.Range1;
+    export interface IIntervieweeInfoCtrl {
+        startAssessment():void;
+    }
+
+    export class IntervieweeInfoCtrl implements IIntervieweeInfoCtrl {
+        constructor(private $scope:IntervieweeInfoCtrlScope, private $location:ng.ILocationService) {
         }
 
-        beginTest():void {
-            console.log((this.scope.itveInfo))
+        startAssessment():void {
+            console.log((this.$scope.itveInfo))
+            console.log((Math.random().toString(36)+'00000000000000000').slice(2, 8+2))
+            this.$location.path('/assessment');
         }
     }
+
+
 
 
 }
