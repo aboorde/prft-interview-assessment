@@ -39,13 +39,14 @@ For unit test:
 
 
 Project Structure
-'''
-interview
+```
+├───interview
 │   bower.json
 │   gulpfile.config.js
 │   gulpfile.js
 │   karma.conf.js
 │   package.json
+│   questions.json
 │   pom.xml
 │   README.MD
 │   setup.cmd								??This windows batch file will setup the project, for first time use only
@@ -65,11 +66,11 @@ interview
         ├───coverage
         ├───data
         └───service
-'''
+```
 
 
 Gulp Design
-'''
+```
 ├───default									??Default Gulp job, which enter developing mode
 │   ├───clean								??Del the builds folder and typescript lib
 │   ├───tsd									??Generate the typeDir lib (./app/typeDir)
@@ -91,4 +92,4 @@ Gulp Design
 │   └───zip									??Create dist at builds/interview.war
 │───test									??Run test once and exit(karma)
 └───tdd										??Watch for file changes and re-run tests on each change(karma, NOT tested)
-'''
+```
