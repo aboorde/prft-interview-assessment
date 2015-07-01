@@ -1,33 +1,33 @@
 
 
 ## Design Bullets
-** V1
+**V1**
 -	AngularJS/Typescript app
 -	Bootstrap
 -	Questions and Categories will be loaded from JSON
 -	Add star rating to question
 
-** V2
+**V2**
 -	Backend system to maintain the question list.
 -	Generate interview assessment report
 -	Calculate the soccer base on the category, e.g. html rating 4.3, css rating 3.8
 
 ## Steps to execute the project - local
 
-** For the First time users: **
-1. Download and Install Nodejs (https://nodejs.org/download/)
-2. Download and Install Git (https://git-scm.com/downloads), make sure select GIT bash in Command Prompt Up
-3. Download and Install Python 2 (https://www.python.org/downloads/)
+#### For the First time users
+1. Download and Install [Nodejs] (https://nodejs.org/download/)
+2. Download and Install [Git] (https://git-scm.com/downloads), make sure select GIT bash in Command Prompt Up
+3. Download and Install [Python 2] (https://www.python.org/downloads/)
 4. Run Setup.cmd for the first time
 
-** For Developer **
+#### For Developer
 1. Run by "gulp" in Command Prompt Up will enter the development mode
 2. Open Browser : localhost:3000
 
-** For Packaging **
+#### For Packaging
 1. Run by "gulp package", find "interview.war" in "./builds" folder
 
-** For unit test: **
+#### For unit test
 1. Complete the operations above.
 2. Confirm karma.coonf.js(In the files:[], there are service test path pattern and controller test path pattern, choose which part you need to test).
 3. Run by "gulp test", and confirm the result and case quality which be run.
