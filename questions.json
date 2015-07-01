@@ -1,318 +1,135 @@
 {
         "html": [{
           "id": "Question-1",
-          "question_name": "questions[question_1]",
-          "answer_name": "answers[answer_1]",
-          "display_name": "HTML5 Tag Semantics",
-          "textarea": "yes",
-          "radio": null,
-          "textfield": null,
-          "options": "",
-          "title": "HTML",
-          "body": "What are the benefits of using the HTML5 tag semantics?",
-          "answer": ""
+          "category": "HTML5 Tag Semantics",
+          "subject": "HTML",
+          "question": "What are the benefits of using the HTML5 tag semantics?"
         }, {
           "id": "Question-2",
-          "question_name": "questions[question_2]",
-          "answer_name": "answers[answer_2]",
-          "display_name": "Frameworks",
-          "textarea": "yes",
-          "radio": null,
-          "textfield": null,
-          "options": "",
-          "title": "HTML",
-          "body": "Which HTML/CSS framework do you use (if any) and why (or why not)?",
-          "answer": ""
+          "category": "Frameworks",
+          "subject": "HTML",
+          "question": "Which HTML/CSS framework do you use (if any) and why (or why not)?"
         }, {
           "id": "Question-3",
-          "question_name": "questions[question_3]",
-          "answer_name": "answers[answer_3]",
-          "display_name": "Widgets",
-          "textarea": "yes",
-          "textfield": null,
-          "radio": null,
-          "options": "",
-          "title": "HTML",
-          "body": "How would you create a widget that would fit in a 250px wide area as well as a 400px wide area?",
-          "answer": ""
+          "category": "Widgets",
+          "subject": "HTML",
+          "question": "How would you create a widget that would fit in a 250px wide area as well as a 400px wide area?"
         }, {
           "id": "Question-4",
-          "question_name": "questions[question_4]",
-          "answer_name": "answers[answer_4]",
-          "display_name": "Local Storage",
-          "textarea": "yes",
-          "textfield": null,
-          "radio": null,
-          "options": "",
-          "title": "HTML",
-          "body": "What is the lifetime of local storage?",
-          "answer": ""
+          "category": "Local Storage",
+          "subject": "HTML",
+          "question": "What is the lifetime of local storage?"
         }, {
           "id": "Question-5",
-          "question_name": "questions[question_5]",
-          "answer_name": "answers[answer_5]",
-          "display_name": "IE8 & Responsive Web Design",
-          "textarea": "yes",
-          "textfield": null,
-          "radio": null,
-          "options": "",
-          "title": "Design/Performance/UX",
-          "body": "When building a responsive website, how would you deal with a browser that does not support media queries (such as IE8)?",
-          "answer": ""
+          "category": "IE8 & Responsive Web Design",
+          "subject": "Design/Performance/UX",
+          "question": "When building a responsive website, how would you deal with a browser that does not support media queries (such as IE8)?"
         }, {
           "id": "Question-6",
-          "question_name": "questions[question_6]",
-          "answer_name": "answers[answer_6]",
-          "display_name": "Input Fields",
-          "textarea": "yes",
-          "textfield": null,
-          "radio": null,
-          "options": "",
-          "title": "HTML",
-          "body": "What HTML/CSS would create an input field that restricts the number of characters inside it to 10?",
-          "answer": ""
+          "category": "Input Fields",
+          "subject": "HTML",
+          "question": "What HTML/CSS would create an input field that restricts the number of characters inside it to 10?"
         }, {
           "id": "Question-7",
-          "question_name": "questions[question_7]",
-          "answer_name": "answers[answer_7]",
-          "display_name": "Site Performance",
-          "textarea": "yes",
-          "textfield": null,
-          "radio": null,
-          "options": "",
-          "title": "Design/Performance/UX",
-          "body": "What are some ways you can improve a site's performance (load time)?",
-          "answer": ""
+          "category": "Site Performance",
+          "subject": "Design/Performance/UX",
+          "question": "What are some ways you can improve a site's performance (load time)?"
         }],
         "css": [{
           "id": "Question-8",
-          "question_name": "questions[question_8]",
-          "answer_name": "answers[answer_8]",
-          "display_name": "CSS Preprocessor",
-          "textarea": "yes",
-          "textfield": null,
-          "radio": null,
-          "options": "",
-          "title": "CSS",
-          "body": "Have you used a CSS preprocessor before? Which do you prefer, and why?",
-          "answer": ""
+          "category": "CSS Preprocessor",
+          "subject": "CSS",
+          "question": "Have you used a CSS preprocessor before? Which do you prefer, and why?"
         }, {
           "id": "Question-9",
-          "question_name": "questions[question_9]",
-          "answer_name": "answers[answer_9]",
-          "display_name": "CSS Positioning",
-          "textarea": "yes",
-          "textfield": null,
-          "radio": null,
-          "options": "",
-          "title": "CSS",
-          "body": "List 3 types of CSS positioning, explain how they work, and explain the differences between them.",
-          "answer": ""
+          "category": "CSS Positioning",
+          "subject": "CSS",
+          "question": "List 3 types of CSS positioning, explain how they work, and explain the differences between them."
         }, {
           "id": "Question-10",
-          "question_name": "questions[question_10]",
-          "answer_name": "answers[answer_10]",
-          "display_name": "Parent/Child Position",
-          "textarea": "yes",
-          "textfield": null,
-          "radio": null,
-          "options": "",
-          "title": "CSS",
-          "body": "You would like a container '<div>' that's of fluid width, with another '<div>' nested inside it that has: a) padding, and b) 100% width (edge-to-edge within the container). What is the issue with this, and how is it typically resolved?",
-          "answer": ""
+          "category": "Parent/Child Position",
+          "subject": "CSS",
+          "question": "You would like a container '<div>' that's of fluid width, with another '<div>' nested inside it that has: a) padding, and b) 100% width (edge-to-edge within the container). What is the issue with this, and how is it typically resolved?"
         }, {
           "id": "Question-11",
-          "question_name": "questions[question_11]",
-          "answer_name": "answers[answer_11]",
-          "display_name": "ID vs Class",
-          "textarea": "yes",
-          "textfield": null,
-          "radio": null,
-          "options": "",
-          "title": "CSS",
-          "body": "List one advantage of using IDs over classes. List one disadvantage.",
-          "answer": ""
+          "category": "ID vs Class",
+          "subject": "CSS",
+          "question": "List one advantage of using IDs over classes. List one disadvantage."
         }, {
           "id": "Question-12",
-          "question_name": "questions[question_12]",
-          "answer_name": "answers[answer_12]",
-          "display_name": "Sass Variables",
-          "textarea": "yes",
-          "textfield": null,
-          "radio": null,
-          "options": "",
-          "title": "CSS",
-          "body": "When using media queries that are defined by variables using Sass ($width-small: 400px), what is the solution for increasing the breakpoint by one value?",
-          "answer": ""
+          "category": "Sass Variables",
+          "subject": "CSS",
+          "question": "When using media queries that are defined by variables using Sass ($width-small: 400px), what is the solution for increasing the breakpoint by one value?"
         }, {
           "id": "Question-13",
-          "question_name": "questions[question_13]",
-          "answer_name": "answers[answer_13]",
-          "display_name": "CSS Selectors",
-          "textarea": "yes",
-          "textfield": null,
-          "radio": null,
-          "options": "",
-          "title": "CSS",
-          "body": "What does the \">\" CSS selector mean?",
-          "answer": ""
+          "category": "CSS Selectors",
+          "subject": "CSS",
+          "question": "What does the \">\" CSS selector mean?"
         }, {
           "id": "Question-14",
-          "question_name": "questions[question_14]",
-          "answer_name": "answers[answer_14]",
-          "display_name": "Media Queries",
-          "textarea": "yes",
-          "textfield": null,
-          "radio": null,
-          "options": "",
-          "title": "CSS",
-          "body": "Provide an example of a media query.",
-          "answer": ""
+          "category": "Media Queries",
+          "subject": "CSS",
+          "question": "Provide an example of a media query."
         }, {
           "id": "Question-15",
-          "question_name": "questions[question_15]",
-          "answer_name": "answers[answer_15]",
-          "display_name": "Box Model",
-          "textarea": "yes",
-          "textfield": null,
-          "radio": null,
-          "options": "",
-          "title": "CSS",
-          "body": "Explain the CSS box model.",
-          "answer": ""
+          "category": "Box Model",
+          "subject": "CSS",
+          "question": "Explain the CSS box model."
         }, {
           "id": "Question-16",
-          "question_name": "questions[question_16]",
-          "answer_name": "answers[answer_16]",
-          "display_name": "Grid Systems",
-          "textarea": "yes",
-          "textfield": null,
-          "radio": null,
-          "options": "",
-          "title": "CSS",
-          "body": "Briefly explain the advantages and disadvantages of using a CSS grid system.",
-          "answer": ""
+          "category": "Grid Systems",
+          "subject": "CSS",
+          "question": "Briefly explain the advantages and disadvantages of using a CSS grid system."
         }, {
           "id": "Question-17",
-          "question_name": "questions[question_17]",
-          "answer_name": "answers[answer_17]",
-          "display_name": "Supporting IE8",
-          "textarea": "yes",
-          "textfield": null,
-          "radio": null,
-          "options": "",
-          "title": "CSS",
-          "body": "How would you handle the business requirements to a) support versions of Internet Explorer down to IE8, and b) use features that IE8 does not support (gradients, rounded corners, transitions, etc)?",
-          "answer": ""
+          "category": "Supporting IE8",
+          "subject": "CSS",
+          "question": "How would you handle the business requirements to a) support versions of Internet Explorer down to IE8, and b) use features that IE8 does not support (gradients, rounded corners, transitions, etc)?"
         }, {
           "id": "Question-18",
-          "question_name": "questions[question_18]",
-          "answer_name": "answers[answer_18]",
-          "display_name": "Pseudo...What",
-          "textarea": "yes",
-          "textfield": null,
-          "radio": null,
-          "options": "",
-          "title": "CSS",
-          "body": "What are CSS pseudo-classes?",
-          "answer": ""
+          "category": "Pseudo...What",
+          "subject": "CSS",
+          "question": "What are CSS pseudo-classes?"
         }, {
           "id": "Question-19",
-          "question_name": "questions[question_19]",
-          "answer_name": "answers[answer_19]",
-          "display_name": "Rotating with CSS",
-          "textarea": "yes",
-          "textfield": null,
-          "radio": null,
-          "options": "",
-          "title": "CSS",
-          "body": "Write the CSS necessary to make an object rotate.",
-          "answer": ""
+          "category": "Rotating with CSS",
+          "subject": "CSS",
+          "question": "Write the CSS necessary to make an object rotate."
         }],
         "js": [{
           "id": "Question-20",
-          "question_name": "questions[question_20]",
-          "answer_name": "answers[answer_20]",
-          "display_name": "JavaScript",
-          "textarea": "yes",
-          "textfield": null,
-          "radio": null,
-          "options": "",
-          "title": "JavaScript",
-          "body": "What's your experience with object-oriented JavaScript?",
-          "answer": ""
+          "category": "JavaScript",
+          "subject": "JavaScript",
+          "question": "What's your experience with object-oriented JavaScript?"
         }, {
           "id": "Question-21",
-          "question_name": "questions[question_21]",
-          "answer_name": "answers[answer_21]",
-          "display_name": "JavaScript + jQuery",
-          "textarea": "yes",
-          "textfield": null,
-          "radio": null,
-          "options": "",
-          "title": "JavaScript",
-          "body": "How would you avoid conflicts between jQuery and Prototype JavaScript libraries?",
-          "answer": ""
+          "category": "JavaScript + jQuery",
+          "subject": "JavaScript",
+          "question": "How would you avoid conflicts between jQuery and Prototype JavaScript libraries?"
         }, {
           "id": "Question-22",
-          "question_name": "questions[question_22]",
-          "answer_name": "answers[answer_22]",
-          "display_name": "IE7 and Child Selectors",
-          "textarea": "yes",
-          "textfield": null,
-          "radio": null,
-          "options": "",
-          "title": "JavaScript",
-          "body": "How would you select the last item in a list (must work in IE7)?",
-          "answer": ""
+          "category": "IE7 and Child Selectors",
+          "subject": "JavaScript",
+          "question": "How would you select the last item in a list (must work in IE7)?"
         }, {
           "id": "Question-23",
-          "question_name": "questions[question_23]",
-          "answer_name": "answers[answer_23]",
-          "display_name": "From This to That",
-          "textarea": "yes",
-          "textfield": null,
-          "radio": null,
-          "options": "",
-          "title": "JavaScript",
-          "body": "Using JavaScript, find the value of an element that can be used (and reused) to be output to another element.",
-          "answer": ""
+          "category": "From This to That",
+          "subject": "JavaScript",
+          "question": "Using JavaScript, find the value of an element that can be used (and reused) to be output to another element."
         }, {
           "id": "Question-24",
-          "question_name": "questions[question_24]",
-          "answer_name": "answers[answer_24]",
-          "display_name": "Truthy & JavaScript",
-          "textarea": "yes",
-          "textfield": null,
-          "radio": null,
-          "options": "",
-          "title": "JavaScript",
-          "body": "Explain the term \"truthy\" as it relates to comparisons in JavaScript.",
-          "answer": ""
+          "category": "Truthy & JavaScript",
+          "subject": "JavaScript",
+          "question": "Explain the term \"truthy\" as it relates to comparisons in JavaScript."
         }, {
           "id": "Question-25",
-          "question_name": "questions[question_25]",
-          "answer_name": "answers[answer_25]",
-          "display_name": "Console Outputs",
-          "textarea": "yes",
-          "textfield": null,
-          "radio": null,
-          "options": "",
-          "title": "JavaScript",
-          "body": "What will the output be (in the console) from each of these statements: if(myvar === \"not defined\"){console.log(\"hello\")}\n\n if(myvar == \"not defined\"){console.log(\"hello\")}\n\n if(myvar = \"not defined\"){console.log(\"hello\")}.",
-          "answer": ""
+          "category": "Console Outputs",
+          "subject": "JavaScript",
+          "question": "What will the output be (in the console) from each of these statements: if(myvar === \"not defined\"){console.log(\"hello\")}\n\n if(myvar == \"not defined\"){console.log(\"hello\")}\n\n if(myvar = \"not defined\"){console.log(\"hello\")}."
         }, {
           "id": "Question-26",
-          "question_name": "questions[question_26]",
-          "answer_name": "answers[answer_26]",
-          "display_name": "Catch Me if You Can",
-          "textarea": "yes",
-          "textfield": null,
-          "radio": null,
-          "options": "",
-          "title": "JavaScript",
-          "body": "Write a basic JavaScript try/catch block that all JavaScript functions should have.",
-          "answer": ""
+          "category": "Catch Me if You Can",
+          "subject": "JavaScript",
+          "question": "Write a basic JavaScript try/catch block that all JavaScript functions should have."
         }]
-
-      }
+}
