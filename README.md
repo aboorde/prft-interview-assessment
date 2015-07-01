@@ -30,7 +30,7 @@ For Packaging
 
 For unit test:
 1.Complete the operations above.
-2.Confirm karma.coonf.js(In the files:[], there are service test path pattern and controller test path pattern, 
+2.Confirm karma.coonf.js(In the files:[], there are service test path pattern and controller test path pattern,
   choose which part you need to test).
 3.Run by "gulp test", and confirm the result and case quality which be run.
 
@@ -38,9 +38,10 @@ For unit test:
 
 
 
-Project Structure 
+Project Structure
+'''
 interview
-│   bower.json 								
+│   bower.json
 │   gulpfile.config.js
 │   gulpfile.js
 │   karma.conf.js
@@ -64,10 +65,11 @@ interview
         ├───coverage
         ├───data
         └───service
-
+'''
 
 
 Gulp Design
+'''
 ├───default									??Default Gulp job, which enter developing mode
 │   ├───clean								??Del the builds folder and typescript lib
 │   ├───tsd									??Generate the typeDir lib (./app/typeDir)
@@ -78,14 +80,15 @@ Gulp Design
 │   │   └───copy-assets						??Copy assets to builds folder
 │   ├───watch								??Watching the changing, re-compile, update the web content, and refresh the brower
 │   └───run									??Starts the local server on top of ./builds folder, http://localhost:3000
-├───package									??Package a deployable war file(builds/interview.war), will do the minify and uglify jobs 
-│   ├───clean								
-│   ├───tsd									
-│   ├───build								
-│   │   ├───compile-typescript				
-│   │   ├───compile-css						
-│   │   ├───build-bower-js					
-│   │   └───copy-assets						
+├───package									??Package a deployable war file(builds/interview.war), will do the minify and uglify jobs
+│   ├───clean
+│   ├───tsd
+│   ├───build
+│   │   ├───compile-typescript
+│   │   ├───compile-css
+│   │   ├───build-bower-js
+│   │   └───copy-assets
 │   └───zip									??Create dist at builds/interview.war
 │───test									??Run test once and exit(karma)
 └───tdd										??Watch for file changes and re-run tests on each change(karma, NOT tested)
+'''
